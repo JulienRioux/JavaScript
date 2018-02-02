@@ -47,3 +47,16 @@ Array.prototype.printAllMovies = function() {
 }
 
 movies.printAllMovies();
+
+
+
+// *************
+// Console print
+// *************
+
+// There is 4 movies:
+ 
+// You have watched "Django" - 5 stars
+// You have not seen "Star Wars" - 4.5 stars
+// You have watched "Wolf of WallStreet" - 4.7 stars
+// You have watched "Pinaple Express" - 4.6 stars
