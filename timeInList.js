@@ -5,9 +5,9 @@ function timeInList(a, b) {
     
     // init the counter
     let c = 0;
-    // create a list of letters in the srting a
+    // create a list of letters in the string a
     let aList = a.split("");
-    // create a list of letters in the srting b
+    // create a list of letters in the string b
     let bList = b.split("");
     
     // create a function to check how many time all the letters in aList are in bList
