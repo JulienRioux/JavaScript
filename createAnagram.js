@@ -24,7 +24,7 @@ function createAnagram(s, t) {
 }
 
 // example:
-// s = "AABAA";
-// t = "BBAAA";
-// createAnagram(s, t);
+s = "AABAA";
+t = "BBAAA";
+createAnagram(s, t);
 // >>> 1
