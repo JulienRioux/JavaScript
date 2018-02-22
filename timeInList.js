@@ -1,8 +1,7 @@
-How many strings equal to a can be constructed using letters from the string b? 
-Each letter can be used only once and in one string only.
+// How many strings equal to a can be constructed using letters from the string b? 
+// Each letter can be used only once and in one string only.
 
-
-function stringsConstruction(a, b) {
+function timeInList(a, b) {
     
     // init the counter
     let c = 0;
@@ -43,3 +42,18 @@ function stringsConstruction(a, b) {
     // return c at the end
     return c;
 }
+
+
+// ==========================
+//        Answer check
+// ==========================
+
+a = "abc";
+b = "zabccba";
+timeInList(a, b);
+// return => 2 times! => ALL the letters in "a" occurs 2 times in "b"
+
+c = "az";
+d = "aaazzzz";
+timeInList(c, d);
+// return => 3 times! => ALL the letters in "c" occurs 2 times in "d"
