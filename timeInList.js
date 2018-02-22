@@ -32,6 +32,7 @@ function timeInList(a, b) {
         
         // increment the counter
         c++;
+        
         // recursive call of the findHowManyTimes function 
         findHowManyTimes(aList, bList);
     }
